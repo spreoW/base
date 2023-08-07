@@ -1,3 +1,5 @@
+package juc;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -11,7 +13,7 @@ public class TestReentrantLock {
             try {
                 lock.lock();
                 System.out.println("t1获取到了锁");
-                Thread.sleep(10000000L);
+                Thread.sleep(6000L);
                 lock.unlock();
                 System.out.println("t1释放了锁");
             } catch (InterruptedException e) {

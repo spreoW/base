@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * @author :wangq
  * @date : 2023/7/19 17:17
